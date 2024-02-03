@@ -1760,6 +1760,7 @@ img.icon_header {
 }
 
 .create_comment {
+  margin: 40px 0;
 }
 
 .create_comment .create_comment__title {
@@ -1779,17 +1780,10 @@ img.icon_header {
   flex-flow: row nowrap;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  width: 100%;
+  align-items: center;
 }
 
 .create_comment form .form_bottom input {
-  color: #333;
-  font-family: "Open Sans", "segoe ui", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.66;
-  outline: none;
-  width: 100%;
 }
 
 .create_comment form .form_bottom .devvn_cmt_radio {
@@ -1810,27 +1804,70 @@ img.icon_header {
 }
 
 .create_comment form .form_bottom .devvn_cmt_input input {
-  height: 35px !important;
-  margin-bottom: 5px !important;
+  color: #666;
+  background: #fafafa;
+  background-image: -webkit-linear-gradient(
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0)
+  );
+  border: 1px solid #bbb;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  display: block;
+  padding: 0.7em;
+  width: 100%;
+  max-width: 100%;
 }
 
 .create_comment form .form_bottom .devvn_cmt_input {
   width: 35%;
   padding: 0 5px;
   box-sizing: border-box;
+  margin-left: 5px;
 }
 
 .create_comment form .form_bottom .devvn_cmt_submit {
-  margin-left: 5px;
+}
+
+.create_comment form .form_bottom .devvn_cmt_submit button {
+  width: 100%;
+  height: 35px;
+  background: #54aa00;
+  border: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  outline: none;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  margin: 0;
+  padding: 0 10px;
+  font-size: 14px;
+  min-height: inherit;
+  line-height: 35px;
+  white-space: nowrap;
+  color: #ffffff;
+  font-weight: 700;
 }
 
 .create_comment form .form_input {
 }
 
 .create_comment form .form_input textarea {
+  border: 1px solid #c1bfbf;
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  outline: none;
   height: 100px;
   border-radius: 3px 3px 0 0;
   display: block;
   margin: 0;
-  width: 100%;
+  background: #fafafa;
+  background-image: -webkit-linear-gradient(
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0)
+  );
 }
